@@ -12,7 +12,7 @@ COMMENT=	NVIDIA DRM Kernel Module
 WWW=		https://github.com/amshafer/nvidia-driver
 
 ONLY_FOR_ARCHS=	amd64
-USES=		kmod
+USES=		kmod uidfix
 
 SUB_FILES=	20-nvidia-drm-outputclass.conf
 
